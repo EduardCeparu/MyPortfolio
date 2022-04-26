@@ -6,6 +6,7 @@
 
 /* HEADER */
 header {
+    padding-top: 10px;
     background-color: white;
     position: absolute;
     top: 0;
@@ -22,6 +23,7 @@ header *{
 }
 
 header li {
+   
     margin: 20px;
 }
 
@@ -38,7 +40,7 @@ header li a:hover{
 }
 
 header img {
-    height: 80px;
+    height: 70px;
     margin-left: 20px;
 }
 
@@ -63,7 +65,7 @@ header img {
     height: auto;
     background: white;
     border-radius: 2px;
-    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 .header{
@@ -143,6 +145,11 @@ header img {
 
  .skillIcon{
      height: 20px;
+ }
+
+ .imgLanguage{
+    height: 140px;
+    width: 200px;
  }
 /*Responsive 
 -----------------
