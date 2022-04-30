@@ -7,17 +7,19 @@
 /* HEADER */
 header {
     padding-top: 10px;
-    background-color: white;
+    background-color: rgb(1, 1, 1,0.9) ;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
 }
-
+.slideBg{
+    background-color: rgb(55, 54, 54);
+}
 header *{
     display: inline;
 }
@@ -28,7 +30,7 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     position: relative;
@@ -39,10 +41,7 @@ header li a:hover{
     color: #2fcc76;
 }
 
-header img {
-    height: 70px;
-    margin-left: 20px;
-}
+
 
 /*MAIN CONTENT
 --------------
@@ -54,7 +53,7 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 50vh;
     font-family: 'PT Sans', sans-serif;
     padding: 0, 20px;
 }
@@ -69,11 +68,9 @@ header img {
 }
 
 .header{
+    background-color: rgba(184, 184, 184, 0.661);
     border-right: 1px solid #ddd;
 }
-
-
-
 .name, .rol{
     font-size: 20px;
     font-weight: bold;
@@ -156,7 +153,11 @@ header img {
 */
 
 .accordion-item{
-    background-image: url('background.jpg');    
+    background-image: url('starsGif.gif');    
+}
+.languages{
+    display: flex;
+    
 }
 
 @media (max-width:640px){

@@ -13,15 +13,12 @@
 }
 
 .nav .nav-item .nav-link{
-    color: black;
+    color: whitesmoke;
     font-weight: bold;
 }
 
 .nav .nav-item .nav-link:hover{
     color: #2fcc76;
-}
-#logo{
-    height: 60px;
 }
   
   .container {

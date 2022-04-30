@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color:rgb(254, 254, 254, 0.1);
+    box-shadow: 0 0 25px 0 black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.nav .nav-item .nav-link{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.nav .nav-item .nav-link:hover{
+    color: #2fcc76;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+form:hover{
+    color: #2fcc76;
+}
+
+#floatingTextarea{
+    height: 50px;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 1;
+}
