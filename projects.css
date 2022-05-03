@@ -14,13 +14,7 @@
 .nav .nav-item .nav-link:hover{
     color: #2fcc76;
 }
-.back-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    opacity: 1;
-}
+
 /*main*/
 body{
     background-image: url(starsGif.gif);

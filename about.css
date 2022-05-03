@@ -5,42 +5,24 @@
 }
 
 /* HEADER */
-header {
-    padding-top: 10px;
-    background-color: rgb(1, 1, 1,0.9) ;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 70px;
+.nav{
+    background-color:rgb(254, 254, 254, 0.1);
+    box-shadow: 0 0 25px 0 black;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 25px 0 black;
-}
-.slideBg{
-    background-color: rgb(55, 54, 54);
-}
-header *{
-    display: inline;
+    position: absolute;
+    width: auto;
+    z-index: 0;
 }
 
-header li {
-   
-    margin: 20px;
-}
-
-header li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+.nav .nav-item .nav-link{
+    color: whitesmoke;
     font-weight: bold;
-    position: relative;
-    z-index: 1;
 }
 
-header li a:hover{
+.nav .nav-item .nav-link:hover{
     color: #2fcc76;
 }
-
 
 
 /*MAIN CONTENT
@@ -50,17 +32,21 @@ header li a:hover{
     text-align: justify;
 }
 .container{
-    display: flex;
+    z-index: 1;
+    background: none;
+    display: block;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 100%;
     font-family: 'PT Sans', sans-serif;
-    padding: 0, 20px;
+    margin-top: 150px;
+    overflow: hidden;
 }
 
 .card-container{
+    position: relative;
     display: flex;
-    width: 1000px;
+    width: auto;
     height: auto;
     background: white;
     border-radius: 2px;
@@ -70,6 +56,9 @@ header li a:hover{
 .header{
     background-color: rgba(184, 184, 184, 0.661);
     border-right: 1px solid #ddd;
+}
+.headerContent{
+    margin-top: 70px;
 }
 .name, .rol{
     font-size: 20px;
@@ -139,6 +128,10 @@ header li a:hover{
  .progress{
      width: 600px;
  }
+ .progressBox{
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
 
  .skillIcon{
      height: 20px;
@@ -148,37 +141,52 @@ header li a:hover{
     height: 140px;
     width: 200px;
  }
+ body{
+    background-image: url(starsGif.gif);
+}
+
 /*Responsive 
 -----------------
 */
 
-.accordion-item{
-    background-image: url('starsGif.gif');    
-}
-.languages{
-    display: flex;
-    
-}
-
-@media (max-width:640px){
+@media (max-width:1000px){
     .card-container{
+        margin: auto;
         display: block;
-        width: 450px;
+        width: 700px;
     }
-
-    .header{
-        padding: 20px 20px 5px 20px;
-        border: none;
+    .headerContent{
+        margin-top: 10px;
     }
-    .description{
-        padding: 5px 20px 20px 20px;
-        background: transparent;
-    }
-
-    .header h4{
-        margin: 0;
-    }
+   
 }
+@media (max-width:768px){
+    .card-container{
+        margin: auto;
+        display: block;
+        width: auto;
+    }
+    .headerContent{
+        margin-top: 10px;
+    }
+   .progress{
+       width: auto;
+   }
+}
+@media (max-width:470px){
+    .card-container{
+        margin: auto;
+        display: block;
+        width: auto;
+    }
+    .headerContent{
+        margin-top: 10px;
+    }
+   .progress{
+       width: auto;
+   }
+}
+
 
 
 
