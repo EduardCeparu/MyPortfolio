@@ -22,7 +22,7 @@
 }
   
   .container {
-      background-size: cover;
+    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -93,3 +93,7 @@
       z-index: -1;
       opacity: 1;
   }
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
