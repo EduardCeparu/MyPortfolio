@@ -112,8 +112,8 @@ body{
 }
 @media (max-width:589px){
   .clock{
-    top: 4%;
-    left: 0%;
+    top:95%;
+    right: 0;
     font-size: 20px;
   }
 }
@@ -158,15 +158,15 @@ body{
     font-size: 15px;
 }
 .clock{
-  top:5%;
-  left:0%;
+  top:95%;
+  right:0%;
   font-size: 20px;
 }
 }
 @media (max-width:341px){
   .clock{
-  top: 8%;
-  left: 0%;
+    top:95%;
+    right:0%;
   font-size: 20px;
 }
 }
