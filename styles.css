@@ -20,7 +20,17 @@
 .nav .nav-item .nav-link:hover{
     color: #2fcc76;
 }
-  
+.clock {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  color: #40e98c;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+ 
+}
   .container {
     background-size: cover;
     height: 100vh;
@@ -47,7 +57,8 @@
   }
   span {
     display: inline-block;
-    opacity: 1;
+    opacity:1;
+   
   }
 
   span:nth-child(1) {
@@ -92,19 +103,16 @@
       z-index: -1;
       opacity: 1;
   }
-  html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
+  
 body{
   background-image: url(images/starsGif.gif);
 }
-@media (max-width:1000px){
-   
-   
-}
-@media (max-width:768px){
-   
+@media (max-width:589px){
+  .clock{
+    top: 4%;
+    left: 0%;
+    font-size: 20px;
+  }
 }
 @media (max-width:470px){
   span:nth-child(1) {
@@ -141,12 +149,21 @@ body{
     color: #40e98c;
     font-size: 20px;
   }
-
-}
-@media (max-width:470px){
   .nav .nav-item .nav-link{
-      color: whitesmoke;
-      font-weight: bold;
-      font-size: 15px;
-  }
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+}
+.clock{
+  top:5%;
+  left:0%;
+  font-size: 20px;
+}
+}
+@media (max-width:341px){
+  .clock{
+  top: 8%;
+  left: 0%;
+  font-size: 20px;
+}
 }
