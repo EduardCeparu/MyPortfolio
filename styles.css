@@ -47,7 +47,7 @@
   }
   span {
     display: inline-block;
-    opacity:1;
+    opacity: 1;
   }
 
   span:nth-child(1) {
