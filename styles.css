@@ -24,12 +24,15 @@
   position: fixed;
   top: 0%;
   right: 0%;
-  color: #40e98c;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   font-family: Orbitron;
   letter-spacing: 7px;
  
+}
+.clock:hover{
+  color: #2fcc76;
 }
   .container {
     background-size: cover;
