@@ -10,7 +10,7 @@
     box-shadow: 0 0 25px 0 black;
     display: flex;
     align-items: center;
-    position: absolute;
+    position: fixed;
     width: auto;
     z-index: 0;
 }
@@ -50,6 +50,7 @@
     height: auto;
     background: white;
     border-radius: 2px;
+    border: 1px solid #2fcc76;
     box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -148,12 +149,17 @@
 /*Responsive 
 -----------------
 */
-
+@media (min-width:1000px){
+    .progress{
+        width: auto;
+    }
+}
 @media (max-width:1000px){
     .card-container{
         margin: auto;
         display: block;
         width: 700px;
+        border: 1px solid #2fcc76;
     }
     .headerContent{
         margin-top: 10px;
@@ -165,6 +171,7 @@
         margin: auto;
         display: block;
         width: auto;
+        border: 1px solid #2fcc76;
     }
     .headerContent{
         margin-top: 10px;
@@ -178,6 +185,7 @@
         margin: auto;
         display: block;
         width: auto;
+        border: 1px solid #2fcc76;
     }
     .headerContent{
         margin-top: 10px;
@@ -185,6 +193,11 @@
    .progress{
        width: auto;
    }
+   .nav .nav-item .nav-link{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+}
 }
 
 

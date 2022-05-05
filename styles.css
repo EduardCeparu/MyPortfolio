@@ -97,7 +97,9 @@
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
-
+body{
+  background-image: url(starsGif.gif);
+}
 @media (max-width:1000px){
    
    
@@ -139,5 +141,13 @@
     animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
     color: #40e98c;
     font-size: 20px;
+  }
+
+}
+@media (max-width:470px){
+  .nav .nav-item .nav-link{
+      color: whitesmoke;
+      font-weight: bold;
+      font-size: 15px;
   }
 }

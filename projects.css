@@ -35,4 +35,11 @@ body{
     color: #2fcc76;
     box-shadow: 0 0 25px 0 whitesmoke;
 }
+@media (max-width:470px){
+    .nav .nav-item .nav-link{
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
 

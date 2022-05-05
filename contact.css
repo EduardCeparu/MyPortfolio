@@ -10,7 +10,7 @@
     box-shadow: 0 0 25px 0 black;
     display: flex;
     align-items: center;
-    position: absolute;
+    position: fixed;
     width: auto;
     z-index: 0;
 }
@@ -44,4 +44,11 @@ body{
     background-image: url(starsGif.gif);
 }
 
-/*ALREADY RESPONSIVE*/
+/*RESPONSIVE*/
+@media (max-width:470px){
+    .nav .nav-item .nav-link{
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
