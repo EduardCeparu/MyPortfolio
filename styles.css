@@ -48,7 +48,6 @@
   span {
     display: inline-block;
     opacity:1;
-    filter: blur(0.5px);
   }
 
   span:nth-child(1) {
@@ -98,7 +97,7 @@
     overflow-x: hidden !important;
 }
 body{
-  background-image: url(starsGif.gif);
+  background-image: url(images/starsGif.gif);
 }
 @media (max-width:1000px){
    
